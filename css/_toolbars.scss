@@ -139,7 +139,7 @@
         .overflow-menu {
             font-size: 1.2em;
             list-style-type: none;
-            background-color: $overflowMenuBG;
+            background-color: #149EBF;
             /**
              * Undo atlaskit padding by reducing margins.
              */
@@ -148,7 +148,7 @@
 
             .overflow-menu-item {
                 align-items: center;
-                color: $overflowMenuItemColor;
+                color: #fff;
                 cursor: pointer;
                 display: flex;
                 font-size: 14px;
@@ -206,7 +206,10 @@
                 }
 
                 svg {
-                    fill: #B8C7E0 !important;
+                    fill: #fff !important;
+                    path {
+                        fill: #fff;
+                    }
                 }
             }
 
